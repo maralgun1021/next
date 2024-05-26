@@ -6,6 +6,9 @@ export const formatCurrency = (amount: number) => {
     currency: 'USD',
   });
 };
+export const test = (amount: number) => {
+  return amount;
+};
 
 export const formatDateToLocal = (
   dateStr: string,
